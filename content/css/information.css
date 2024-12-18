@@ -2,8 +2,34 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "ship holodeck"
+    "fitness journey";
+    ;
 }
 
 .tile{
-    
+    border: 5px solid #5D2E7E;
+    border-radius: 5px;
+}
+
+.tileImg{
+    width: 300px;
+    height: 300px;
+}
+
+#shipInfo{
+    grid-area: ship;
+}
+
+#holodeckInfo{
+    grid-area: holodeck;
+}
+
+#fitnessInfo{
+    grid-area: fitness;
+}
+
+#journeyInfo{
+    grid-area: journey;
 }
