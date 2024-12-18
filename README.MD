@@ -4,3 +4,8 @@ Made by: TeamBlue
 - Ronny
 - Jea
 
+## Open in Codespace:
+
+1. Press "Code".
+2. Press "Codespaces".
+3. Press the name of the codespace.
