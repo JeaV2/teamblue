@@ -7,11 +7,13 @@ Made by: TeamBlue
 ## Let op!
 
 - Geen spaties, hoofdletters of speciale tekens in de bestandsnamen.
-- Plaats de bestanden in de juiste map.(Bijvoorbeeld plaatjes, CSS, JS in hun eigen map in `/content/../bestand.ext`). 
+- Plaats de bestanden in de juiste map. (Bijvoorbeeld plaatjes, CSS, JS in hun eigen map in `/content/../bestand.ext`). 
 - Gebruik simpele en duidelijke namen voor de bestanden.
 
 ## Open in Codespace:
 
-1. Press "Code".
-2. Press "Codespaces".
-3. Press the name of the codespace.
+1. Druk op "Code".
+2. Druk op "Codespaces".
+3. Druk op de naam van de codespace.
+4. Als je in de codespace zit even de veranderingen pullen, en vergeet niet te pushen als je klaar bent.
+![instructies pullen.](/content/img/md/pull.png)
