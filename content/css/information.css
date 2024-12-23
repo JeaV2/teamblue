@@ -1,11 +1,10 @@
+/* Dit is de css voor "information/index.html" */
+
 #mainCont {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "ship holodeck"
-    "fitness journey";
-    ;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1em;
 }
 
 .tile{
@@ -14,22 +13,51 @@
 }
 
 .tileImg{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    border-bottom: #5D2E7E 5px solid;
 }
 
 #shipInfo{
-    grid-area: ship;
+    width: 350px;
 }
 
 #holodeckInfo{
-    grid-area: holodeck;
+    width: 350px;
 }
 
 #fitnessInfo{
-    grid-area: fitness;
+    width: 350px;
 }
 
 #journeyInfo{
-    grid-area: journey;
+    width: 350px;
+}
+
+.tileText{
+    padding: 0.5em;
+}
+
+.tile a{
+    color: #fff;
+    text-decoration: underline double;
+}
+
+#left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+#right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 }
