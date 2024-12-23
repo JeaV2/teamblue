@@ -46,7 +46,7 @@ main {
 }
 
 .item {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
     color: white;
     border: 5px solid #5D2E7E;
     border-radius: 5px;
