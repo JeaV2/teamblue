@@ -1,0 +1,32 @@
+.title{
+    font-size: 3rem;
+    text-align: center;
+    color: #5D2E7E;
+    margin: 1rem;
+}
+
+hr{
+    border: 2.5px solid #5D2E7E;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+#spaceship{
+    float: right;
+    margin: 1rem;
+    margin-left: 0;
+    border: #5D2E7E 5px solid;
+    border-radius: 5px;
+
+}
+
+.info {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+b{
+    color: #CA15DD;
+    font-size: 2rem;
+}
