@@ -7,6 +7,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'ocr-a-extended';
+    src: url(../font/ocraext.ttf);
+}
+
+@font-face {
+    font-family: 'krypton';
+    src: url(../font/monaspace-krypton-light.woff);
+}
+
 body{
     background-image: url(../img/bg.png);
     background-size: cover;
@@ -28,9 +38,11 @@ body{
 
 nav {
     grid-area: nav;
+    font-family: ocr-a-extended;
 }
 main {
     grid-area: main;
+    font-family: krypton;
 }
 
 .item {
