@@ -1,19 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../content/css/main.css">
-</head>
-<body class="container">
-    <nav class="item">
-        <div id="navCont">
-            <div class="button"><a href="../information">Information</a></div>
-            <div class="button"><a href="../menu">Menu's for the restaurant</a></div>
-            <div class="button"><a href="../entertainment">Entertainment</a></div>
-        </div>
-    </nav>
-    <main class="item"></main>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Entertainment page</title>
+        <link rel="stylesheet" href="../content/css/main.css">
+        <link rel="stylesheet" href="../content/css/information.css">
+    </head>
+    <body class="container">
+        <nav class="item">
+            <div id="navCont">
+                <div class="button"><a href="../information">Information</a></div>
+                <div class="button"><a href="../menu">Menu's for the restaurant</a></div>
+                <div class="button"><a href="../entertainment">Entertainment</a></div>
+            </div>
+        </nav>
+        <main class="item">
+            <div id="mainCont">
+                <div id="left">
+                    <div class="tile" id="shipInfo">
+                        <a href="../entertainment/books/">
+                            <img class="tileImg" src="../content/img/book.png"
+                                alt="An image of a spaceship flying through space.">
+                            <p class="tileText">
+                                Read E-books.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="tile" id="fitnessInfo">
+                        <a href="../entertainment/movies/">
+                            <img class="tileImg" src="../content/img/music.jpg"
+                                alt="An image of a gym with a treadmill, weights and a yoga mat in purple light.">
+                            <p class="tileText">
+                                Listen to music.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="right">
+                    <div class="tile" id="holodeckInfo">
+                        <a href="../entertainment/movies/">
+                            <img class="tileImg" src="../content/img/cinema.png" alt="An image of a VR headset.">
+                            <p class="tileText">
+                                Watch movies.
+                            </p>
+                        </a>
+                    </div>
+    
+                    <div class="tile" id="journeyInfo">
+                        <a href="../entertainment/games/">
+                            <img class="tileImg" src="../content/img/game.png" alt="An image of a spaceship flying through space.">
+                            <p class="tileText">
+                                Play minigames.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
 </html>
