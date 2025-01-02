@@ -1,4 +1,4 @@
-/* Dit is de css voor "information/index.html" */
+/* Dit is de css voor "information/index.html" en "entertainment/index.html" */
 
 #mainCont {
     display: flex;
@@ -17,19 +17,19 @@
     border-bottom: #5D2E7E 5px solid;
 }
 
-#shipInfo{
+#tileOne{
     width: 350px;
 }
 
-#holodeckInfo{
+#tileTwo{
     width: 350px;
 }
 
-#fitnessInfo{
+#tileThree{
     width: 350px;
 }
 
-#journeyInfo{
+#tileFour{
     width: 350px;
 }
 
