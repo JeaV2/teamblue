@@ -10,6 +10,24 @@
     gap: 30vw;  
     margin-bottom: 5em;
 }
+.halfcircles {
+    position: absolute;
+    top: 10px;
+    gap: 20em;
+    display: flex;
+    direction: rtl;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#halfcircles1 {
+    position: absolute;
+    top: 10px;
+    gap: 20em;
+    display: flex;
+    direction: rtl;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 #earth, #mars {
     height: auto;
@@ -36,4 +54,37 @@
     color: blueviolet;
 }
 
+#astronautdiv {
+    left: 400px;
+    bottom: 480px;
+    position: absolute;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 100px;
+    height: 100px;
+    animation: travel 5000ms ease-in-out;
+}
+#astronaut {
+    width: 300px;
+    height: 300px;
 
+}
+@keyframes travel {
+    0% {
+        left:  450px;
+        bottom: 440px;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        
+    }
+    50% {
+      left: 50%;
+      bottom: 540px;
+      animation-fill-mode: forwards;
+    }
+    100% {
+      left: 77%;
+      bottom: 400px;
+    }
+}
+#astronautdiv { animation: travel 5s forwards; }
