@@ -32,7 +32,7 @@ main {
     gap: 20px;
     flex-direction: row;
     justify-content: space-between;
-    border: 3px rgb(105, 45, 166) solid;
+    border: #5D2E7E 5px solid;
     margin: 0 auto;
     border-radius: 5px;
 }
@@ -40,7 +40,7 @@ main {
 .item img {
     width: 400px;
     height: auto;
-    border-bottom: 3px rgb(105, 45, 166) solid;
+    border-bottom: #5D2E7E 5px solid;
 }
 
 .item p {
@@ -50,7 +50,7 @@ main {
 }
 
 .food {
-    border: 3px rgb(105, 45, 166) solid;
+    border: #5D2E7E 5px solid;
     margin: 1rem;
     border-radius: 5px;
 }
