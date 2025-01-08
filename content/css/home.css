@@ -1,0 +1,10 @@
+body{
+    background-image: url(../img/home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#link {
+    width: 100vw;
+    height: 100vh;
+}
