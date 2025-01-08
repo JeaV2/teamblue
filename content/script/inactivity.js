@@ -9,6 +9,13 @@ let HOME_PAGE_URL;
 // Rare manier om te checken of de huidige pagina een van de volgende is
 // Maar "If it ain't broke, don't fix it"
 if (
+    CURRENT_URL.indexOf("books") >= 0 && CURRENT_URL.indexOf("romance") >= 0
+    // Als er meer folders zijn even toevoegen
+) {
+    HOME_PAGE_URL = "../../../";
+    console.info(`Path set to ${HOME_PAGE_URL}`);
+}
+else if (
     CURRENT_URL.indexOf("fitness-wellness") >= 0 ||
     CURRENT_URL.indexOf("vr-holodeck") >= 0 ||
     CURRENT_URL.indexOf("spaceship") >= 0 ||
