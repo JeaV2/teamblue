@@ -1,0 +1,14 @@
+li {
+    list-style-type:disc;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+
+img{
+    float: right;
+    margin: 1rem;
+    margin-left: 0;
+    border: #5D2E7E 5px solid;
+    border-radius: 5px;
+
+}
