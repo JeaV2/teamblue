@@ -1,0 +1,63 @@
+/* Dit is de css voor "information/index.html" en "entertainment/index.html" */
+
+#mainCont {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1em;
+}
+
+.tile{
+    border: 5px solid #5D2E7E;
+    border-radius: 5px;
+}
+
+.tileImg{
+    width: 100%;
+    border-bottom: #5D2E7E 5px solid;
+}
+
+#tileOne{
+    width: 350px;
+}
+
+#tileTwo{
+    width: 350px;
+}
+
+#tileThree{
+    width: 350px;
+}
+
+#tileFour{
+    width: 350px;
+}
+
+.tileText{
+    padding: 0.5em;
+}
+
+.tile a{
+    color: #fff;
+    text-decoration: underline double;
+}
+
+#left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+#right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
