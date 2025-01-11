@@ -1,4 +1,12 @@
+#gameContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .tile{
+    margin: 1rem;
     border: 5px solid #5D2E7E;
     border-radius: 5px;
     width: 350px;

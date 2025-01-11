@@ -12,6 +12,15 @@ hr{
     
 }
 
+.tileText{
+    padding: 0.5em;
+}
+
+.tile a{
+    color: #fff;
+    text-decoration: underline double;
+}
+
 .info {
     font-size: 1.5rem;
     margin: 1rem;
