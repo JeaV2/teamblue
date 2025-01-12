@@ -33,15 +33,6 @@
     width: 350px;
 }
 
-.tileText{
-    padding: 0.5em;
-}
-
-.tile a{
-    color: #fff;
-    text-decoration: underline double;
-}
-
 #left {
     width: 50%;
     height: 100%;
