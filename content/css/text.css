@@ -30,3 +30,8 @@ b{
     color: #CA15DD;
     font-size: 2rem;
 }
+
+a {
+    color: #CA15DD;
+    text-decoration: underline double;
+}
