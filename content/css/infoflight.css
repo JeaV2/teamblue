@@ -29,13 +29,13 @@
 
 .halfcircle-text1, .halfcircle-text2  {
     position: absolute;
-    color: #6e3696;
+    color: #ca15DD;
     font-weight: bolder;
     top: 6em;
     left: 30%;
 }
 .halfcircle-text3 {
-    color: #5D2E7E;
+    color: #ca15DD;
     font-weight: bolder;
     position: absolute;
     top: 6em;

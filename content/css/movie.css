@@ -25,4 +25,10 @@
   .poster-item:hover img {
     transform: scale(1.02); 
   }
+  #close-video {
+    color: #ca15DD;
+    font-family: krypton;
+    border-radius: 5%;
+    margin: 10px;
+  }
   
