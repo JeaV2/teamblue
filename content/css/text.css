@@ -26,6 +26,11 @@ hr{
     margin: 1rem;
 }
 
+.infoLine{
+    display: block;
+    margin-bottom: 1em;
+}
+
 b{
     color: #CA15DD;
     font-size: 2rem;
