@@ -43,6 +43,9 @@ function checkWinnerWithBoard(symbol, testBoard) {
 }
 
 function playComputer() {
+    if (isBoardFull() === true) {
+        reset();
+    }
     if (!winner) {
         if (board[1][1] === '') {
             play(1, 1);
@@ -81,17 +84,21 @@ function playComputer() {
 }
 
 function play(row, col) {
+    const newAudio = new Audio('../../../content/sfx/pop2.mp3');
     if (board[row][col] === '' && !winner) {
         board[row][col] = currentPlayer;
         document.getElementById('board').children[row].children[col].innerText = currentPlayer;
         if (checkWinner()) {
             document.getElementById('status').innerText = `Player ${currentPlayer} wins!`;
             winner = currentPlayer;
+            newAudio.play();
         } else if (isBoardFull()) {
             document.getElementById('status').innerText = 'It\'s a tie!';
+            newAudio.play();
         } else {
             currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
             document.getElementById('status').innerText = `Het is de beurt van ${currentPlayer}`;
+            newAudio.play();
         }
     }
 }

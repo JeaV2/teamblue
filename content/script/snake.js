@@ -90,6 +90,9 @@ function move() {
     snake.unshift(head);
 
     if (head.x === food.x && head.y === food.y) {
+        // play a sound
+        const audio = new Audio('../../../content/sfx/pop.mp3');
+        audio.play();
         food = generateFood();
         increaseSpeed();
         clearInterval(gameInterval);
