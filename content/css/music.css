@@ -1,0 +1,224 @@
+.music-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 0; /* Reset the margin to prevent shifting */
+    flex-wrap: wrap; /* Allow wrapping in case the screen size is small */
+  }
+  
+  .playlist-ctn {
+    width: 30%;  /* Adjust the width for a more balanced layout */
+    background-color: rgba(77, 29, 122, 0.29);
+    padding: 15px;
+    border-radius: 10px;
+    height: auto; 
+    overflow-y: auto;
+  }
+  
+  .playlist-track-ctn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: rgba(77, 29, 122, 0.29);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .playlist-track-ctn:hover {
+    background-color: rgba(61, 8, 75, 0.5);
+  }
+  
+  /* Album Cover */
+  .album-cover {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 15px;
+    object-fit: cover;
+  }
+  
+  /* Track Information */
+  .playlist-info-track {
+    flex-grow: 1;
+    font-size: 1rem;
+    color: #ca15dd;
+  }
+  
+  .playlist-duration {
+    font-size: 0.8rem;
+    color: #ca15dd;
+  }
+  
+  .active-track {
+    background-color: #4c1e5e;
+  }
+  
+  .active-track .playlist-info-track {
+    color: #e357ff;
+  }
+  
+  /* Music Player Styling */
+  .player-ctn {
+    width: 30%;  /* Adjust the width for the music player */
+    background-color: rgba(77, 29, 122, 0.29);
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .album-art {
+    display: block;
+    width: 50%;
+    height: 30vh;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .infos-ctn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .timer {
+    color: #ca15dd;
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    color: #820cb1;
+    text-align: center;
+  }
+  
+  #myProgress {
+    width: 100%;
+    height: 8px;
+    background-color: #cb99fa;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  #myBar {
+    width: 0%;
+    height: 8px;
+    background-color: #4c1e5e;
+    border-radius: 20px;
+  }
+  
+  .btn-ctn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .btn-action {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20%;
+    background-size: contain;
+  }
+  
+  .musicbtn {
+    width: 5vh;
+    height: auto;
+    transition-duration: all 1s ease-in-out;
+  }
+  
+  .btn-action:hover {
+    border-radius: 90%;
+    transform: scale(0.8);
+  }
+  
+  .fas {
+    font-size: 1.5rem;
+    color: #ca15dd;
+  }
+  
+  /* Queue Section Styling */
+  .queue-ctn {
+    width: 30%;  /* Same width as playlist and music player */
+    background-color: rgba(77, 29, 122, 0.29);
+    padding: 15px;
+    border-radius: 10px;
+    overflow-y: auto;
+  }
+  
+  .queue-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: rgba(77, 29, 122, 0.29);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .queue-item:hover {
+    background-color: rgba(61, 8, 75, 0.5);
+  }
+  
+  /* Queue Information */
+  .queue-info {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #ca15dd;
+    flex-grow: 1;
+  }
+  
+  .queue-duration {
+    font-size: 0.8rem;
+    color: #ca15dd;
+  }
+  
+  /* Active Queue Item Highlight (Optional) */
+  .queue-item.active {
+    background-color: #4c1e5e;
+  }
+  
+  .queue-item .queue-info {
+    color: #e357ff;
+  }
+  
+  /* Remove Button Styling */
+  .remove-btn {
+    background: transparent;
+    border: none;
+    color: #ca15dd;
+    cursor: pointer;
+  }
+  
+  .remove-btn:hover {
+    color: #f2f2f2;
+  }
+  
+  /* Add to Queue Button */
+  .add-to-queue-btn {
+    background-color: #4c1e5e;
+    color: #ca15dd;
+    border: none;
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .add-to-queue-btn:hover {
+    background-color: #6a3f76;
+    margin: 5px;
+    color: #f2f2f2;
+  }
+  

@@ -33,8 +33,23 @@
     width: 350px;
 }
 
+#tileFive{
+    width: 350px;
+    margin-top: 50%;
+}
+
 #left {
     width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+#middle {
+    /* width: 33%; */
     height: 100%;
     display: flex;
     align-items: center;
